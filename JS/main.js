@@ -16,7 +16,7 @@ let icons = ['editing', 'discovery', 'camera']
 let headings = ['Working Hard', 'Searching', 'Our View']
 let pgafs = [
       'Come see what we have been serving up! we have been working har to bring you quality constent.',
-      'Searching all around the world to big you high quality photos. We want you to feel like you\'re there',
+      'Searching all around the world for high quality photos. We want you to feel like you\'re there',
       'See the world through our view. We find the most beautify landscaps to capture.'
 ]
 let aboutCards = document.querySelector('#about');
