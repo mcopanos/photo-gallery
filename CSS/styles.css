@@ -145,3 +145,45 @@ nav a:active {
 .about-cards li {
     list-style-type: none;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 875px) {
+
+    .main-image {
+        width: 500px;
+        height: 300px;
+      }
+
+      #navBar {
+        font-size: 24px;
+      }
+
+      .hero-split h1 {
+        font-size: 38px;
+      }
+
+      .hero-split p {
+        font-size: 18px;
+      }
+  }
+
+  @media screen and (max-width: 650px) {
+    .main-image {
+        width: 370px;
+        height: 275px;
+      }
+
+      #navBar {
+        font-size: 24px;
+      }
+
+      .hero-split {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 10px;
+      }
+  }
